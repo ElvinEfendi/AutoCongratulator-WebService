@@ -2,7 +2,6 @@
 -- version 2.11.9.4
 -- http://www.phpmyadmin.net
 --
--- Host: 173.201.217.102
 -- Generation Time: Nov 21, 2010 at 04:42 AM
 -- Server version: 5.0.91
 -- PHP Version: 5.2.8
@@ -38,17 +37,6 @@ CREATE TABLE `tblBirthday` (
   KEY `uId` (`uId`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=27 ;
 
---
--- Dumping data for table `tblBirthday`
---
-
-INSERT INTO `tblBirthday` VALUES(18, 'Atamin dogum gunu', '505834629', 'Ad gunun mubarek, ata!', 0, '2010-11-26', '0', '0');
-INSERT INTO `tblBirthday` VALUES(19, 'Cavidin ad gunu', '556539533', 'Green glass, Greeen glass, Greeeen glass to youuuuuu!', 1, '2011-6-25', '0', '0');
-INSERT INTO `tblBirthday` VALUES(23, 'test1', '518230551', 'wegwegwe', 1, '2010-11-21', '0', '0');
-INSERT INTO `tblBirthday` VALUES(24, 'test2', '518230551', 'wegwegwe', 1, '2010-11-21', '0', '0');
-INSERT INTO `tblBirthday` VALUES(25, 'test3', '518230551', 'wegwegwe', 1, '2010-11-21', '0', '0');
-INSERT INTO `tblBirthday` VALUES(26, 'test', '506678560', 'test test', 1, '2010-11-22', '0', '1');
-
 -- --------------------------------------------------------
 
 --
@@ -66,11 +54,3 @@ CREATE TABLE `tblUser` (
   PRIMARY KEY  (`uId`),
   UNIQUE KEY `uUsername` (`uUsername`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=6 ;
-
---
--- Dumping data for table `tblUser`
---
-
-INSERT INTO `tblUser` VALUES(1, 'hers19', 'hers19@hotmail.com', 'hers1989', '058d294621e28309c69d3e6221168ffdff21a967', 'Bakcell', '558230551');
-INSERT INTO `tblUser` VALUES(4, '', '7694946', '123456', '7c4a8d09ca3762af61e59520943dc26494f8941b', 'Azercell', '507694946');
-INSERT INTO `tblUser` VALUES(5, 'Shahriyar', '5119611', 'SnaKe2375', '361237ed2e7afa0b2cef0033b66adc6ab89d9ce5', 'Azercell', '505119611');
